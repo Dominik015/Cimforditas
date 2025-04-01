@@ -42,6 +42,9 @@ h2 {
 p.imgtitle {
   font-size: 1.1em;
   margin: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 130%;
 }
 
 table,
@@ -52,5 +55,9 @@ table,
 a:link,
 a:visited {
   color: blue;
-  margin: 10px;
+}
+
+p{
+  text-align: justify;
+  text-indent: 25px;
 }
