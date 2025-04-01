@@ -65,6 +65,7 @@ p{
 
 table{
   background-color: rgba(227, 225, 233, 0.8);
+  border-collapse: collapse;
 }
 
 a{
@@ -73,4 +74,22 @@ a{
 
 a:hover{
   color: yellow;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  line-height: 300%;
+  width: 550px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+th{
+  background-color: green;
+  color: white;
+}
+
+table, .frame{
+  border: 3px solid green;
 }
